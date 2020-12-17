@@ -3,5 +3,5 @@ import ReactDOM from 'react-dom';
 
 import HelloWorld from './componets/HelloWorild'
 
-ReactDOM.render(<HelloWorld />, document.getElementById(app));
+ReactDOM.render(<HelloWorld />, document.getElementById('app'));
 
