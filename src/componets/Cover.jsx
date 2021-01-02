@@ -8,7 +8,7 @@ class Cover extends React.Component {
         return (
             <section className="cover-page container">
             <div className="cover-page__info">
-                <h2 className="cover-page__info--h2">My name is</h2>
+                <h2 className="cover-page__info--h2">I Am</h2>
                 <h4 className="cover-page__info--h4">{this.props.name}</h4>
                 <p className="cover-page__info--p">Junior JavaScript <span> Developer</span></p>
                 <button type="cover-page__info--btn" className="btn btn-primary button__profile">contact now</button>

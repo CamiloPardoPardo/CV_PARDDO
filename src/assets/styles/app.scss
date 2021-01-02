@@ -12,6 +12,7 @@ body{
     background-color: #0d0d0d;
     color: #ffffff;
 }
+
 #app{
   padding: 2% 3%;
 }
@@ -25,14 +26,37 @@ span{
 
 
 .container{
+  min-width: 100%;
   background-color: #222222 ;
   padding: 3%;
   margin-bottom: 10px;
-  min-width: 100%;
 }
 .icon-section {
   color: #007bff;
 }
 h2{
   font-weight: 600;
+}
+
+.carde-style{
+  margin: 25px 5px;
+  width: 16rem;
+  background-color: rgb(95, 95, 95) !important;
+}
+
+.tlites {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.tercera{
+  width: 70%;
+}
+
+@media (min-width: 1024px) {
+.main {
+  max-width: 800px;
+  margin-left:  35%;
+}
+
 }
